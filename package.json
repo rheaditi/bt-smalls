@@ -1,30 +1,30 @@
 {
-  "name": "bt-smalls",
-  "version": "1.0.0",
-  "bin": {
-    "btsmalls": "index.js"
-  },
-  "scripts": {
-    "start": "nodemon index.js serve",
-    "serve": "nodemon index.js serve",
-    "postinstall": "bower install",
-    "lint": "eslint ."
-  },
-  "pre-commit": [
-    "lint"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rheaditi/bt-smalls.git"
-  },
-  "dependencies": {
-    "bower": "1.7.9",
-    "commander": "2.9.0",
-    "express": "4.14.0",
-    "nodemon": "^1.11.0"
-  },
-  "devDependencies": {
-    "eslint": "3.9.0",
-    "pre-commit": "1.1.3"
-  }
+	"name": "bt-smalls",
+	"version": "1.0.0",
+	"bin": {
+		"btsmalls": "index.js"
+	},
+	"scripts": {
+		"start": "nodemon index.js serve",
+		"serve": "nodemon index.js serve",
+		"postinstall": "bower install",
+		"lint": "eslint ."
+	},
+	"pre-commit": [
+		"lint"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rheaditi/bt-smalls.git"
+	},
+	"dependencies": {
+		"bower": "1.7.9",
+		"commander": "2.9.0",
+		"express": "4.14.0",
+		"nodemon": "^1.11.0"
+	},
+	"devDependencies": {
+		"eslint": "3.9.0",
+		"pre-commit": "1.1.3"
+	}
 }
