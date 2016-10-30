@@ -1,0 +1,22 @@
+{
+  "name": "bt-smalls",
+  "version": "1.0.0",
+  "bin": {
+    "btsmalls": "index.js"
+  },
+  "scripts": {
+    "start": "nodemon index.js serve",
+    "serve": "nodemon index.js serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rheaditi/bt-smalls.git"
+  },
+  "dependencies": {
+    "bower": "1.7.9",
+    "commander": "2.9.0",
+    "express": "4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
