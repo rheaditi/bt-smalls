@@ -7,8 +7,12 @@
   "scripts": {
     "start": "nodemon index.js serve",
     "serve": "nodemon index.js serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "bower install",
+    "lint": "eslint ."
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rheaditi/bt-smalls.git"
@@ -18,5 +22,9 @@
     "commander": "2.9.0",
     "express": "4.14.0",
     "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "3.9.0",
+    "pre-commit": "1.1.3"
   }
 }
